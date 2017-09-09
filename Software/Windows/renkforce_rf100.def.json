@@ -82,7 +82,7 @@
             "default_value": "Renkforce RF100"
         },
         "machine_start_gcode": {
-            "default_value": ";Sliced at: {day} {date} {time}\nG21 ;metric values\nG90 ;absolute positioning\nM82 ;set extruder to absolute mode\nM107 ;start with the fan off\nG1 Z+0.5 ;move Z up a bit\nG28 X0 Y0 F1800 ;move X/Y to min endstops\nG28 Z0 ;move Z to min endstop\nG92 E0 ;zero the extruded length\nG1 F200 E3 ;extrude 3mm of feed stock\nG1 Z15.0 ;move the platform down 15mm\nG92 E0 ;zero the extruded length again\nG1 F1800\n;Put printing message on LCD screen\nM117 Printing..."
+            "default_value": ";Sliced at: {day} {date} {time}\nG21 ;metric values\nG90 ;absolute positioning\nM82 ;set extruder to absolute mode\nM107 ;start with the fan off\nG1 Z15.0 ;move Z to 15mm\nG28 X0 Y0 F1800 ;move X/Y to min endstops\nG28 Z0 ;move Z to min endstop\nG92 E0 ;zero the extruded length\nG1 F200 E3 ;extrude 3mm of feed stock\nG1 Z15.0 ;move the platform down 15mm\nG92 E0 ;zero the extruded length again\nG1 F1800\n;Put printing message on LCD screen\nM117 Printing..."
         },
         "machine_width": {
             "value": "100"

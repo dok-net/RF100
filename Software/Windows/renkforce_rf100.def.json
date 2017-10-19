@@ -13,7 +13,7 @@
 
     "overrides": {
         "adhesion_type": {
-            "default_value": "skirt"
+            "default_value": "brim"
         },
         "bottom_thickness": {
             "value": "0.5"

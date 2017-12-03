@@ -126,14 +126,17 @@
         "raft_margin": {
             "value": "5.0"
         },
+        "raft_speed": {
+            "value": "20.0"
+        },
         "raft_surface_layers": {
-            "value": "2"
+            "value": "4"
         },
         "raft_surface_line_spacing": {
             "value": "3.0"
         },
         "raft_surface_line_width": {
-            "value": "0.4"
+            "value": "0.3"
         },
         "raft_surface_thickness": {
             "value": "0.27"

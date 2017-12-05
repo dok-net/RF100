@@ -16,10 +16,10 @@
             "default_value": "brim"
         },
         "bottom_thickness": {
-            "value": "0.5"
+            "value": "0.4"
         },
         "brim_width": {
-            "value": "2.0"
+            "value": "5.0"
         },
         "cool_fan_enabled": {
             "value": "True"
@@ -106,7 +106,7 @@
             "value": "0.22"
         },
         "raft_base_line_spacing": {
-            "value": "3.0"
+            "value": "2.0"
         },
         "raft_base_line_width": {
             "value": "1.0"
@@ -121,7 +121,7 @@
             "value": "0.4"
         },
         "raft_interface_thickness": {
-            "value": "0.27"
+            "value": "0.3"
         },
         "raft_margin": {
             "value": "5.0"
@@ -136,7 +136,7 @@
             "value": "3.0"
         },
         "raft_surface_line_width": {
-            "value": "0.3"
+            "value": "0.2"
         },
         "raft_surface_thickness": {
             "value": "0.27"
@@ -213,11 +213,14 @@
         "support_z_distance": {
             "value": "0.1"
         },
+        "top_bottom_thickness": {
+            "value": "0.6"
+        },
         "top_thickness": {
-            "value": "0.5"
+            "value": "0.4"
         },
         "wall_thickness": {
-            "value": "0.8"
+            "value": "0.4"
         }
     }
 }

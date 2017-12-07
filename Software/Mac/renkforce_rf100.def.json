@@ -16,10 +16,10 @@
             "default_value": "brim"
         },
         "bottom_thickness": {
-            "value": "0.4"
+            "value": "0.5"
         },
         "brim_width": {
-            "value": "5.0"
+            "value": "4.0"
         },
         "cool_fan_enabled": {
             "value": "True"
@@ -199,7 +199,7 @@
             "value": "False"
         },
         "support_infill_rate": {
-            "value": "15.0"
+            "value": "14.0"
         },
         "support_pattern": {
             "default_value": "lines"
@@ -217,10 +217,10 @@
             "value": "0.6"
         },
         "top_thickness": {
-            "value": "0.4"
+            "value": "0.5"
         },
         "wall_thickness": {
-            "value": "0.4"
+            "value": "0.7"
         }
     }
 }

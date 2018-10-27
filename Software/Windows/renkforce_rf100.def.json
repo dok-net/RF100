@@ -8,7 +8,11 @@
         "category": "Other",
         "file_formats": "text/x-gcode",
         "manufacturer": "Renkforce",
-        "visible": true
+        "visible": true,
+        "machine_extruder_trains":
+        {
+            "0": "renkforce_rf100_extruder_0"
+        }
     },
 
     "overrides": {

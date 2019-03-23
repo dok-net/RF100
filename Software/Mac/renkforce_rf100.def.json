@@ -19,9 +19,6 @@
         "adhesion_type": {
             "default_value": "brim"
         },
-        "bottom_thickness": {
-            "value": "0.5"
-        },
         "brim_width": {
             "value": "2.0"
         },
@@ -50,7 +47,7 @@
             "value": "True"
         },
         "infill_line_width": {
-            "value": "0.5"
+            "value": "0.6"
         },
         "infill_overlap": {
             "value": "15.0"
@@ -206,7 +203,7 @@
             "value": "15.0"
         },
         "support_line_width": {
-            "value": "0.5"
+            "value": "0.6"
         },
         "support_pattern": {
             "default_value": "lines"
@@ -222,9 +219,6 @@
         },
         "top_bottom_thickness": {
             "value": "0.6"
-        },
-        "top_thickness": {
-            "value": "0.5"
         },
         "wall_thickness": {
             "value": "0.7"

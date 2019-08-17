@@ -52,6 +52,12 @@
         "infill_overlap": {
             "value": "15.0"
         },
+        "infill_sparse_density": {
+            "value": "26.0"
+        },
+        "ironing_enabled": {
+            "value": "True"
+        },
         "layer_0_z_overlap": {
             "value": "0.11"
         },
@@ -218,10 +224,13 @@
             "value": "0.35"
         },
         "top_bottom_thickness": {
+            "value": "0.8"
+        },
+        "bottom_thickness": {
             "value": "0.6"
         },
         "wall_thickness": {
-            "value": "0.7"
+            "value": "0.8"
         }
     }
 }

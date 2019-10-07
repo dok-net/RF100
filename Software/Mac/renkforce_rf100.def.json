@@ -86,7 +86,7 @@
             "default_value": "RepRap (Marlin/Sprinter)"
         },
         "machine_height": {
-            "value": "110"
+            "value": "108"
         },
         "machine_name": {
             "default_value": "Renkforce RF100"

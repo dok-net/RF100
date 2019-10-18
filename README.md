@@ -37,7 +37,7 @@ alter the values in the configuration file accordingly, affected are the setting
 ```
 ```
 "machine_height": {
-    "value": "110"
+    "value": "108"
 }
 ```
 ```
@@ -56,6 +56,8 @@ version of Marlin on the RF100 v1 is the increased print space, from 100mm to
 105mm, 110mm and 110mm in x/y/z dimensions, respectively. If you own the
 RF100 v2, the only update in the stock firmware sources published by Conrad
 actually is just this print space declaration, 120mm cubed for that printer.
+After flashing new firmware to your printer, please reset the EEPROM to defaults
+via the appropriate menu item under `Control`.
 
 ### Downloading pre-built firmware file to your RF100
 In the menu bar, locate the `Settings` drop-down menu, select `Printer`,
@@ -83,15 +85,16 @@ Select this in the board manager: `ATmega2560 (Mega 2560) (Arduino/Genuino Mega)
 Build the `Marlin.ino` project.
 
 #### Manual adaptation of the firmware sources for the RF100 V2
-In order not to lose 10mm of 120mm (vs. 100mm in stock Conrad firmware for v1)
-in each dimension that the improved v2 of the printer hardware offers, before
-copying `Marlin/example_configurations/Renkforce/RF100/Configuration.h`,
-locate `@section machine` in that file. Set the correct values for your printer:
+In order not to lose at least 10mm of 120mm (vs. 100mm in stock Conrad firmware
+for v1) in each dimension that the improved v2 of the printer hardware offers,
+before copying `Marlin/example_configurations/Renkforce/RF100/Configuration.h`,
+locate `@section machine` in that file. Set the correct values (120 each) for
+your printer:
 
 ```
 #define X_BED_SIZE 105
 #define Y_BED_SIZE 110
 ```
 ```
-#define Z_MAX_POS 110
+#define Z_MAX_POS 108
 ```

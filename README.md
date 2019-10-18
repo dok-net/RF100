@@ -29,7 +29,7 @@ want to `Active` the custom profile `Config-PLA` as your default profile.
 The RF100 printer runs the Open Source [Marlin](http://marlinfw.org/) firmware.
 The most obvious advantage of switching to the updated community-configured
 version of Marlin on the RF100 v1 is the increased print space, from 100mm to
-105mm, 110mm and 110mm in x/y/z dimensions, respectively. If you own the
+105mm, 110mm and 105mm in x/y/z dimensions, respectively. If you own the
 RF100 v2, the only update in the stock firmware sources published by Conrad
 actually was just this print space declaration, 120mm cubed for that printer.
 

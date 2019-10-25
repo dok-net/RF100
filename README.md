@@ -1,6 +1,6 @@
-# RF100
-A repository with all Conrad documentation, the SD card contents, and the latest
-Cura releases plus the RF100 V1 and V2 configuration files for it.
+# [dok-net/RF100](https://github.com/dok-net/RF100/)
+This is a repository with all Conrad documentation, the SD card contents,
+and the latest Cura releases plus the RF100 V1 and V2 configuration files for it.
 
 ## Setup Guide
 A link to the latest Cura release can be located in the 
@@ -52,12 +52,11 @@ For V2 of the RF100, insert V2 into the repository names/branches/directory name
 as appropriate.
 
 Obtain the sources from the Github repository
-[dok-net/Marlin](https://github.com/dok-net/Marlin/tree/renkforce_rf100).
+[dok-net/Marlin](https://github.com/dok-net/Marlin/tree/renkforce_rf100_v2).
 There should be a version tag that mimics the version tag in this repository,
 like our version `v2.2-pre` is matched by `rf100-v2.2-pre` there.
 Use this if you want to inspect the sources or rebuild the same binary firmware
-as included here. Otherwise, the `renkforce_rf100` branch is where updated
-merges with new Marlin releases can be found.
+as included here.
 Please install the [LiquidCrystal](https://www.arduino.cc/en/Reference/LiquidCrystal)
 library.
 Copy the contents of the `Marlin/example_configurations/Renkforce/RF100` folder

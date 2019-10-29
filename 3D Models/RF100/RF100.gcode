@@ -9,11 +9,11 @@
 ;MAXY:61.401
 ;MAXZ:2.3
 ;Generated with Cura_SteamEngine 4.3.0
-M104 S210
+M104 S200
 M105
-M109 S210
+M109 S200
 M82 ;absolute extrusion mode
-;Sliced at: Sat 19-10-2019 13:17:26
+;Sliced at: Tue 29-10-2019 13:21:03
 G21 ;metric values
 G90 ;absolute positioning
 M82 ;set extruder to absolute mode
@@ -2054,9 +2054,9 @@ M82 ;absolute extrusion mode
 M104 S0
 ;End of Gcode
 ;SETTING_3 {"global_quality": "[general]\\nversion = 4\\nname = Config-PLA\\ndef
-;SETTING_3 inition = fdmprinter\\n\\n[metadata]\\nquality_type = normal\\ntype =
-;SETTING_3  quality_changes\\nsetting_version = 9\\n\\n[values]\\n\\n", "extrude
+;SETTING_3 inition = fdmprinter\\n\\n[metadata]\\nsetting_version = 9\\nquality_
+;SETTING_3 type = normal\\ntype = quality_changes\\n\\n[values]\\n\\n", "extrude
 ;SETTING_3 r_quality": ["[general]\\nversion = 4\\nname = Config-PLA\\ndefinitio
-;SETTING_3 n = renkforce_rf100\\n\\n[metadata]\\nposition = 0\\nquality_type = n
-;SETTING_3 ormal\\ntype = quality_changes\\nsetting_version = 9\\n\\n[values]\\n
+;SETTING_3 n = renkforce_rf100\\n\\n[metadata]\\nsetting_version = 9\\nquality_t
+;SETTING_3 ype = normal\\ntype = quality_changes\\nposition = 0\\n\\n[values]\\n
 ;SETTING_3 gradual_infill_steps = 5\\n\\n"]}

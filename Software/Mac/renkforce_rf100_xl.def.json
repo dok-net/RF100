@@ -76,15 +76,6 @@
         "machine_gcode_flavor": {
             "default_value": "RepRap (Marlin/Sprinter)"
         },
-        "machine_head_with_fans_polygon":
-        {
-            "default_value": [
-				[-26, 54],
-				[-26, -28],
-				[38, 54],
-				[38, -28]
-            ]
-        },
         "machine_heated_bed": {
             "default_value": "true"
         },

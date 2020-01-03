@@ -39,7 +39,7 @@
             "value": "True"
         },
         "cool_min_layer_time": {
-            "value": "5.0"
+            "value": "1.0"
         },
         "cool_min_speed": {
             "value": "5.0"

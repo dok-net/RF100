@@ -42,7 +42,7 @@
             "value": "5.0"
         },
         "cool_min_speed": {
-            "value": "10.0"
+            "value": "5.0"
         },
         "infill_before_walls": {
             "value": "True"

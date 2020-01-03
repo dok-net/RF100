@@ -1,11 +1,9 @@
 {
-    "id": "RF100 V2",
     "version": 2,
     "name": "Renkforce RF100 V2",
     "inherits": "fdmprinter",
     "metadata": {
         "author": "Simon Peter (based on RF100.ini by Conrad Electronic SE)",
-        "category": "Other",
         "file_formats": "text/x-gcode",
         "manufacturer": "Renkforce",
         "visible": true,
@@ -103,9 +101,6 @@
         "material_bed_temperature": {
             "enabled": false
         },
-        "material_flow": {
-            "value": "100"
-        },
         "material_print_temperature": {
             "value": "200.0"
         },
@@ -160,8 +155,8 @@
         "retraction_enable": {
             "value": "True"
         },
-        "retraction_hop_enabled": {
-            "value": "True"
+        "retraction_hop": {
+            "value": "1.0"
         },
         "retraction_min_travel": {
             "value": "1.5"
@@ -209,7 +204,7 @@
             "value": "False"
         },
         "support_infill_rate": {
-            "value": "15.0"
+            "value": "15 if support_enable else 0 if support_tree_enable else 15"
         },
         "support_line_width": {
             "value": "0.6"

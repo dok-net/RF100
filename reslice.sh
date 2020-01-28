@@ -1,0 +1,1 @@
+c:/Program\ Files/Ultimaker\ Cura\ 4.3/CuraEngine.exe slice -j "/c/Program Files/Ultimaker Cura 4.3/resources/definitions/renkforce_rf100.def.json" -g -e0 -l "$1" > "$(dirname "$1")/$(basename -s stl "$1")gcode"

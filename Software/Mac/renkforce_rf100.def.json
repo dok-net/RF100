@@ -77,10 +77,10 @@
         "machine_head_with_fans_polygon":
         {
             "default_value": [
-				[-26, -27],
-				[38, -27],
-				[38, 55],
-				[-26, 55]
+                [-26, -27],
+                [38, -27],
+                [38, 55],
+                [-26, 55]
             ]
         },
         "gantry_height": {
@@ -154,9 +154,6 @@
         },
         "retraction_enable": {
             "value": "True"
-        },
-        "retraction_hop": {
-            "value": "1.0"
         },
         "retraction_min_travel": {
             "value": "1.5"

@@ -12,24 +12,25 @@ In the same directory as the Cura setup file, there is a
 `renkforce_rf100.def.json` printer definition file. Replace this
 for the original printer definition file of the Cura installation, which is
 located in `Program Files/Ultimaker Cura */resources/definitions`.
-Also copy the `renkforce_rf100_v2.def.json` printer definition file for
-the RF100 V2 to the same location.
-Then copy the extruder definition file `renkforce_rf100_extruder_0.def`,
-that belongs into `Program Files/Ultimaker Cura */resources/extruders`.
+Also copy the `renkforce_rf100_v2.def.json` and `renkforce_rf100_xl.def.json`
+printer definition files for the RF100 V2 and the XL to the same location.
+Then copy the extruder definition files `renkforce_rf100_extruder_0.def` and
+`renkforce_rf100_xl_extruder_0.def.json`, both belong
+into `Program Files/Ultimaker Cura */resources/extruders`.
 
 Next, start the Cura application, and in the pop-up window opened via
-the menu item `Settings/Profile/Manage Profiles...`, select `Profiles`, and
-`Import` the custom profiles locate in this repository's `Config/Windows` or
-`Config/Mac` directory.
+the menu item `Preferences/Configure Cura...`, select `Profiles`, and
+then `Import` the custom profiles locate in this repository's `Config/Windows`
+or `Config/Mac` directory.
 
 For the default material selection of the RF100, PLA, you will then probably
-want to `Active` the custom profile `Config-PLA` as your default profile.
+want to `Activate` the custom profile `Config-PLA` as your default profile.
 
 ## Firmware Guide
 The RF100 printer runs the Open Source [Marlin](http://marlinfw.org/) firmware.
 The most obvious advantage of switching to the updated community-configured
-version of Marlin on the RF100 v1 is the increased print space, from 100mm to
-105mm, 110mm and 105mm in x/y/z dimensions, respectively. If you own the
+version of Marlin versus the RF100 v1 is the increased print space, from 100mm
+to 105mm, 110mm and 105mm in x/y/z dimensions, respectively. If you own the
 RF100 v2, the only update in the stock firmware sources published by Conrad
 actually was just this print space declaration, 120mm cubed for that printer.
 
@@ -38,7 +39,7 @@ via the appropriate menu item under `Control`.
 
 ### Downloading pre-built firmware file to your RF100
 In the menu bar, locate the `Settings` drop-down menu, select `Printer`,
-then `Manager Printers...`. When you select your RF100 V1 or V2 printer
+then `Manager Printers...`. When you select your RF100 V1, V2, or XL printer
 and push the `Update Firmware` button, the remaining steps should be
 self-explaining. Use the matching firmware hex file for your printer version
 provided here in the `Software/Firmware` folder. The `RF100 V1.1.cpp.hex` or

@@ -101,7 +101,7 @@
         "material_bed_temperature": {
             "enabled": false
         },
-        "material_print_temperature": {
+        "default_material_print_temperature": {
             "value": "200.0"
         },
         "ooze_shield_enabled": {
@@ -150,7 +150,7 @@
             "value": "5.0"
         },
         "retraction_combing": {
-            "default_value": "all"
+            "value": "all"
         },
         "retraction_enable": {
             "value": "True"

@@ -1,4 +1,5 @@
-# [dok-net/RF100](https://github.com/dok-net/RF100/)
+# [dok-net/RF100](https://github.com/dok-net/RF100/)
+
 This is a repository with all Conrad documentation, the SD card contents,
 and the latest Cura releases plus the RF100 V1 and V2 configuration files for it.
 
@@ -11,12 +12,12 @@ perform the following steps first.
 In the same directory as the Cura setup file, there is a
 `renkforce_rf100.def.json` printer definition file. Replace this
 for the original printer definition file of the Cura installation, which is
-located in `Program Files/Ultimaker Cura */resources/definitions`.
+located in `Program Files/Ultimaker Cura */share/cura/resources/definitions`.
 Also copy the `renkforce_rf100_v2.def.json` and `renkforce_rf100_xl.def.json`
 printer definition files for the RF100 V2 and the XL to the same location.
 Then copy the extruder definition files `renkforce_rf100_extruder_0.def` and
 `renkforce_rf100_xl_extruder_0.def.json`, both belong
-into `Program Files/Ultimaker Cura */resources/extruders`.
+into `Program Files/Ultimaker Cura */share/cura/resources/extruders`.
 
 Next, start the Cura application, and in the pop-up window opened via
 the menu item `Preferences/Configure Cura...`, select `Profiles`, and
